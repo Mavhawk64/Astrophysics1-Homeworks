@@ -41,3 +41,5 @@ log_center_T ! temperature
 log_center_Rho ! density
 log_center_P ! pressure
 center_entropy ! in units of kerg per baryon
+radius ! Rsun
+center_T ! K

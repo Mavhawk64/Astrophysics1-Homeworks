@@ -40,8 +40,8 @@
 
     read_extra_pgstar_inlist1 = .true.
     extra_pgstar_inlist1_name = 'inlist_pgstar'
-    
-    read_extra_pgstar_inlist2 = .false.
+
+    read_extra_pgstar_inlist2 = .true.
     extra_pgstar_inlist2_name = 'inlist_entropy'
 
 / ! end of pgstar namelist
