@@ -1,0 +1,176 @@
+&pgstar
+      ! History_Track1
+      ! ~~~~~~~~~~~~~~
+
+      ! ::
+
+    History_Track1_win_flag = .true.
+    History_Track1_win_width = 6
+    History_Track1_win_aspect_ratio = 0.75
+
+      ! ::
+
+    History_Track1_xleft = 0.15
+    History_Track1_xright = 0.85
+    History_Track1_ybot = 0.15
+    History_Track1_ytop = 0.85
+    History_Track1_txt_scale = 1.0
+    History_Track1_title = 'History_Track1'
+
+      ! set default
+
+      ! ::
+
+    History_Track1_xname = 'center_entropy'
+    History_Track1_yname = 'radius'
+    History_Track1_xaxis_label = 's\dcenter'
+    History_Track1_yaxis_label = 'R/R\d\(2281)'
+    History_Track1_reverse_xaxis = .false.
+    History_Track1_reverse_yaxis = .false.
+    History_Track1_log_xaxis = .false.
+    History_Track1_log_yaxis = .false.
+
+      ! ::
+
+    History_Track1_xmin = -101d0
+    History_Track1_xmax = -101d0
+    History_Track1_ymin = -101d0
+    History_Track1_ymax = -101d0
+
+      ! ::
+
+    History_Track1_xmargin = 0.1
+    History_Track1_ymargin = 0.1
+    History_Track1_dxmin = -1
+    History_Track1_dymin = -1
+
+      ! ::
+
+    History_Track1_step_min = -1
+    History_Track1_step_max = -1
+
+      ! ::
+
+    show_History_Track1_target_box = .false.
+    History_Track1_n_sigma = -3
+    History_Track1_xtarget = 0
+    History_Track1_xsigma = 0
+    History_Track1_ytarget = 0
+    History_Track1_ysigma = 0
+
+      ! ::
+
+    show_History_Track1_annotation1 = .false.
+    show_History_Track1_annotation2 = .false.
+    show_History_Track1_annotation3 = .false.
+
+      ! ::
+
+    History_Track1_fname = ''
+
+      ! Enables calling a subroutine to add extra information to a plot
+      ! see ``$MESA_DIR/star/other/pgstar_decorator.f90``
+
+      ! ::
+
+    History_Track1_use_decorator = .false.
+
+      ! file output
+
+      ! ::
+
+    History_Track1_file_flag = .false.
+    History_Track1_file_dir = 'png'
+    History_Track1_file_prefix = 'track1_'
+    History_Track1_file_interval = 5
+    History_Track1_file_width = -1
+    History_Track1_file_aspect_ratio = -1
+
+      ! History_Track2
+      ! ~~~~~~~~~~~~~~
+
+      ! ::
+
+    History_Track2_win_flag = .true.
+    History_Track2_win_width = 6
+    History_Track2_win_aspect_ratio = 0.75
+
+      ! ::
+
+    History_Track2_xleft = 0.15
+    History_Track2_xright = 0.85
+    History_Track2_ybot = 0.15
+    History_Track2_ytop = 0.85
+    History_Track2_txt_scale = 1.0
+    History_Track2_title = 'History_Track2'
+
+      ! set default
+
+      ! ::
+
+    History_Track2_xname = 'center_T'
+    History_Track2_yname = 'center_entropy'
+    History_Track2_xaxis_label = 'T\dcenter'
+    History_Track2_yaxis_label = 's\dcenter'
+    History_Track2_reverse_xaxis = .false.
+    History_Track2_reverse_yaxis = .false.
+    History_Track2_log_xaxis = .false.
+    History_Track2_log_yaxis = .false.
+
+      ! ::
+
+    History_Track2_xmin = -101d0
+    History_Track2_xmax = -101d0
+    History_Track2_ymin = -101d0
+    History_Track2_ymax = -101d0
+
+      ! ::
+
+    History_Track2_xmargin = 0.1
+    History_Track2_ymargin = 0.1
+    History_Track2_dxmin = -1
+    History_Track2_dymin = -1
+
+      ! ::
+
+    History_Track2_step_min = -1
+    History_Track2_step_max = -1
+
+      ! ::
+
+    show_History_Track2_target_box = .false.
+    History_Track2_n_sigma = -3
+    History_Track2_xtarget = 0
+    History_Track2_xsigma = 0
+    History_Track2_ytarget = 0
+    History_Track2_ysigma = 0
+
+      ! ::
+
+    show_History_Track2_annotation1 = .false.
+    show_History_Track2_annotation2 = .false.
+    show_History_Track2_annotation3 = .false.
+
+      ! ::
+
+    History_Track2_fname = ''
+
+      ! Enables calling a subroutine to add extra information to a plot
+      ! see ``$MESA_DIR/star/other/pgstar_decorator.f90``
+
+      ! ::
+
+    History_Track2_use_decorator = .false.
+
+      ! file output
+
+      ! ::
+
+    History_Track2_file_flag = .false.
+    History_Track2_file_dir = 'png'
+    History_Track2_file_prefix = 'Track2_'
+    History_Track2_file_interval = 5
+    History_Track2_file_width = -1
+    History_Track2_file_aspect_ratio = -1
+
+/ ! end of pgstar namelist
